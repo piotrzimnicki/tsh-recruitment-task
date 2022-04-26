@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tsh-recruitment-task/static/css/main.46830b5a.chunk.css",
-    "main.js": "/tsh-recruitment-task/static/js/main.050f404e.chunk.js",
-    "main.js.map": "/tsh-recruitment-task/static/js/main.050f404e.chunk.js.map",
+    "main.js": "/tsh-recruitment-task/static/js/main.ee78deac.chunk.js",
+    "main.js.map": "/tsh-recruitment-task/static/js/main.ee78deac.chunk.js.map",
     "runtime-main.js": "/tsh-recruitment-task/static/js/runtime-main.07df109e.js",
     "runtime-main.js.map": "/tsh-recruitment-task/static/js/runtime-main.07df109e.js.map",
-    "static/js/2.fd60cdeb.chunk.js": "/tsh-recruitment-task/static/js/2.fd60cdeb.chunk.js",
-    "static/js/2.fd60cdeb.chunk.js.map": "/tsh-recruitment-task/static/js/2.fd60cdeb.chunk.js.map",
+    "static/js/2.eff3e09f.chunk.js": "/tsh-recruitment-task/static/js/2.eff3e09f.chunk.js",
+    "static/js/2.eff3e09f.chunk.js.map": "/tsh-recruitment-task/static/js/2.eff3e09f.chunk.js.map",
     "index.html": "/tsh-recruitment-task/index.html",
     "static/css/main.46830b5a.chunk.css.map": "/tsh-recruitment-task/static/css/main.46830b5a.chunk.css.map",
-    "static/js/2.fd60cdeb.chunk.js.LICENSE.txt": "/tsh-recruitment-task/static/js/2.fd60cdeb.chunk.js.LICENSE.txt",
+    "static/js/2.eff3e09f.chunk.js.LICENSE.txt": "/tsh-recruitment-task/static/js/2.eff3e09f.chunk.js.LICENSE.txt",
     "static/media/App.css": "/tsh-recruitment-task/static/media/Nunito-VariableFont_wght.c0cfae63.ttf",
     "static/media/Header.css": "/tsh-recruitment-task/static/media/checked.708e1ba4.svg",
     "static/media/close-icon.svg": "/tsh-recruitment-task/static/media/close-icon.4e066aa8.svg",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.07df109e.js",
-    "static/js/2.fd60cdeb.chunk.js",
+    "static/js/2.eff3e09f.chunk.js",
     "static/css/main.46830b5a.chunk.css",
-    "static/js/main.050f404e.chunk.js"
+    "static/js/main.ee78deac.chunk.js"
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tsh-recruitment-task/static/css/main.d7ee84c3.chunk.css",
+    "main.js": "/tsh-recruitment-task/static/js/main.6709e179.chunk.js",
+    "main.js.map": "/tsh-recruitment-task/static/js/main.6709e179.chunk.js.map",
+    "runtime-main.js": "/tsh-recruitment-task/static/js/runtime-main.07df109e.js",
+    "runtime-main.js.map": "/tsh-recruitment-task/static/js/runtime-main.07df109e.js.map",
+    "static/js/2.fd60cdeb.chunk.js": "/tsh-recruitment-task/static/js/2.fd60cdeb.chunk.js",
+    "static/js/2.fd60cdeb.chunk.js.map": "/tsh-recruitment-task/static/js/2.fd60cdeb.chunk.js.map",
+    "index.html": "/tsh-recruitment-task/index.html",
+    "static/css/main.d7ee84c3.chunk.css.map": "/tsh-recruitment-task/static/css/main.d7ee84c3.chunk.css.map",
+    "static/js/2.fd60cdeb.chunk.js.LICENSE.txt": "/tsh-recruitment-task/static/js/2.fd60cdeb.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/tsh-recruitment-task/static/media/Nunito-VariableFont_wght.c0cfae63.ttf",
+    "static/media/close-icon.svg": "/tsh-recruitment-task/static/media/close-icon.4e066aa8.svg",
+    "static/media/login-image.jpg": "/tsh-recruitment-task/static/media/login-image.4a3eedbd.jpg",
+    "static/media/shopping-bag.svg": "/tsh-recruitment-task/static/media/shopping-bag.d0354ee2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07df109e.js",
+    "static/js/2.fd60cdeb.chunk.js",
+    "static/css/main.d7ee84c3.chunk.css",
+    "static/js/main.6709e179.chunk.js"
+  ]
+}

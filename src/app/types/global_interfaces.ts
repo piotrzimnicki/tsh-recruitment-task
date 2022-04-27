@@ -12,8 +12,8 @@ export interface SingleProductInt {
     image: string;
     promo: boolean;
     active: boolean;
-
 }
+
 export interface MetaInt {
     totalItems: number;
     itemCount: number;
@@ -21,7 +21,7 @@ export interface MetaInt {
     totalPages: number;
     currentPage: number;
 }
-// not used at this moment
+
 export interface LinksInt {
     first: string;
     previous: string;
@@ -33,5 +33,4 @@ export interface FetchedObjects {
     items: SingleProductInt[];
     meta: MetaInt;
     links: LinksInt;
-
 }

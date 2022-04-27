@@ -12,7 +12,6 @@ interface Props {
 
 export const ProductsContainer = ({products}: Props) => {
 
-
     const [currentPage,setCurrentPage] = useState(1);
 
     const productsPerPage = 8;

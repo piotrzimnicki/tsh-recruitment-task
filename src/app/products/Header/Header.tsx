@@ -8,7 +8,7 @@ import {SearchDataInt} from "../../types/global_interfaces";
 
 interface Props {
     searchData: SearchDataInt;
-    setSearchData:  Dispatch<SetStateAction<SearchDataInt>>
+    setSearchData:  Dispatch<SetStateAction<SearchDataInt>>;
 }
 
 export const Header = ({searchData,setSearchData}: Props) => {

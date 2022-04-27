@@ -1,0 +1,72 @@
+.products .inner .single-product {
+    min-width: 210px;
+    min-height: 400px;
+    position: relative;
+    max-width: 500px;
+}
+.products .inner .single-product.promo::before {
+    content: 'Promo';
+    display: block;
+    color: #fff;
+    background-color: #F9A52B;
+    padding: 4px 16px;
+    position: absolute;
+    left: 0;
+    top: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    z-index: 10;
+}
+
+.products .inner .single-product.disabled {
+    filter: grayscale(1);
+    pointer-events: none;
+}
+.products .inner .single-product.disabled figure img {
+    opacity: 0.5;
+}
+.products .inner .single-product > .inner {
+    background-color: #fff;
+    padding-bottom: 24px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px 10px 8px 8px;
+}
+.products .inner .single-product figure {
+    display: flex;
+    flex-direction: column;
+}
+.products .inner .single-product figure img {
+    width: 100%;
+    transition: .3s opacity;
+    max-height: 170px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+.products .inner .single-product:hover figure img {
+    opacity: 0.8;
+}
+.products .inner .single-product figure figcaption {
+    padding: 16px;
+}
+.products .inner .single-product figure figcaption h2 {
+    font-size: 18px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    color: #1A1B1D;
+}
+.products .inner .single-product figure figcaption p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #9194A5;
+}
+.products .inner .single-product .star-review {
+    padding: 0 16px;
+    margin-bottom: 16px;
+}
+.products .inner .single-product .star-review span {
+    margin-right: 10px;
+}

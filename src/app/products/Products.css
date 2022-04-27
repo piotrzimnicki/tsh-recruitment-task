@@ -1,0 +1,17 @@
+.products {
+    background-color: #F2F2F2;
+    min-height: 880px;
+}
+.products:not(.no-background).fadeIn {
+    animation: fadeIn 1s both;
+}
+.products.no-background {
+    background-color: transparent;
+}
+.products > .inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 20px;
+    padding-top: 56px;
+    padding-bottom: 40px;
+}

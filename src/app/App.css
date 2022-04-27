@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Nunito';
+    src: local('Nunito'),
+    url('../assets/fonts/Nunito-VariableFont_wght.ttf') format("truetype-variations");
+    font-weight: 1 999;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Nunito";
+}
+
+.default-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container-inner {
+    max-width: 1224px;
+    margin: 0 auto;
+}
+.btn {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin: 0 16px;
+    border-radius: 4px;
+}
+.btn-blue {
+    background-color: #4460F7;
+    color: #fff;
+    border: 1px solid #4460F7;
+    transition: .3s color, .3s background-color, .3s border;
+}
+.btn-blue:hover {
+    background-color: #2140E8;
+    color: #fff;
+    border: 1px solid #2140E8;
+}
+.btn-disabled {
+    color: #fff;
+    background-color: #9194A5;
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}

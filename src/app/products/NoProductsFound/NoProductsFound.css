@@ -1,0 +1,36 @@
+.pnf-wrapper {
+    min-width: 600px;
+    min-height: 344px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.pnf-wrapper .inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pnf-wrapper .inner h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 22px 0 8px 0;
+    color: #1A1B1D;
+}
+.pnf-wrapper .inner p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #9194A5;
+}
+
+@media (max-width: 650px) {
+    .pnf-wrapper {
+        min-width: unset;
+        position: absolute;
+        left: 24px;
+        right: 24px;
+    }
+}

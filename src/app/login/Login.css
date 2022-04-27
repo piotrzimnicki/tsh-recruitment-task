@@ -1,0 +1,112 @@
+:root {
+    --login-container-width: 496px;
+    --main-light: #4460F7;
+    --main-dark: #2140E8;
+    --main-accent: #F9A52B;
+    --gray-scale-5: #1A1B1D;
+    --gray-scale-4: #9194A5;
+    --gray-scale-3: #B9BDCF;
+    --gray-scale-2: #E0E2EA;
+    --gray-scale-1: #F0F1F5;
+}
+
+.login-page-wrapper {
+    display: flex;
+}
+
+.login-page-wrapper .left {
+    line-height: 0;
+}
+
+.login-page-wrapper .right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    margin: 0 40px;
+}
+
+.login-page-wrapper .right .logo {
+    position: absolute;
+    top: 52px;
+    width: 100%;
+    max-width: var(--login-container-width);
+    text-align: left;
+}
+
+.login-page-wrapper .right .inner {
+    width: 100%;
+    max-width: var(--login-container-width);
+}
+.login-page-wrapper .right .inner h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 29px;
+
+}
+.login-page-wrapper .right .inner .forgot-pass {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--gray-scale-4);
+    margin-top: 16px;
+    text-decoration: underline;
+}
+.login-page-wrapper .right .inner form label {
+    display: flex;
+    flex-direction: column;
+}
+.login-page-wrapper .right .inner form label span {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.login-page-wrapper .right .inner form label input {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 16px;
+    background-color: transparent;
+    color: var(--gray-scale-4);
+    border: 1px solid var(--gray-scale-2);
+    border-radius: 8px;
+}
+.login-page-wrapper .right .inner form label:first-child input {
+    margin-bottom: 22px;
+}
+.login-page-wrapper .right .inner form .btn-login {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 12px 20px;
+    font-family: inherit;
+    margin-top: 56px;
+    background-color: var(--main-light);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s background-color;
+
+}
+.login-page-wrapper .right .inner form .btn-login:hover {
+    background-color: var(--main-dark);
+}
+
+@media(max-width: 991px) {
+    .login-page-wrapper {
+        height: 100vh;
+    }
+    .login-page-wrapper .left {
+        display: none;
+    }
+    .login-page-wrapper .right {
+        margin: 0 24px;
+    }
+    .login-page-wrapper .right .logo {
+        top: 40px;
+    }
+}

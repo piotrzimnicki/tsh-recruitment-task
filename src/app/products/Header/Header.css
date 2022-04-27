@@ -1,0 +1,120 @@
+.header .inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.header .inner .logo {
+    flex: 0 1 auto;
+    margin-right: 105px;
+}
+.header .btn-login {
+    max-width: 90px;
+    color: #4460F7;
+    padding: 11px 24px;
+    border: 1px solid #4460F7;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s color, .3s border-color;
+}
+.header .btn-login:hover {
+    color: #2140E8;
+    border-color: #2140E8;
+}
+
+.header .controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1 1 auto;
+}
+.header .controls .search {
+    position: relative;
+    margin-right: 24px;
+}
+.header .controls .search input {
+    width: 355px;
+    padding: 15px 50px 15px 15px;
+    border: 1px solid #E0E2EA;
+    border-radius: 8px;
+}
+.header .controls .search input::placeholder,
+.header .controls .search input::-moz-placeholder{
+    color: #000;
+}
+
+.header .controls .search img {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header .controls .check-filters {
+    display: flex;
+}
+.header .controls .check-filters label {
+    display: flex;
+    align-items: center;
+}
+.header .controls .check-filters label:first-child {
+    margin-right: 32px;
+}
+.header .controls .check-filters input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #E0E2EA;
+    border-radius: 4px;
+    margin-right: 8px;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    -o-appearance:none;
+
+}
+.header .controls .check-filters input:checked {
+    background-color: #4460F7;
+    border-color: #4460F7;
+}
+.header .controls .check-filters input:checked::after{
+    content: url("./assets/checked.svg");
+    display: inline-block;
+}
+@media(max-width: 1300px) {
+    .container-inner {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+@media (max-width: 991px) {
+    .header .inner {
+        justify-content: space-between;
+        padding-top: 53px;
+        padding-bottom: 24px;
+    }
+    .header .inner .logo {
+        margin-right: 0;
+    }
+    .header .controls {
+        order: 3;
+        flex: 1 1 100%;
+        justify-content: flex-start;
+        margin-top: 29px;
+    }
+}
+@media (max-width: 650px) {
+    .header .controls .search {
+        flex: 1 1 100%;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    .header .controls .search input {
+        width: 100%;
+    }
+}

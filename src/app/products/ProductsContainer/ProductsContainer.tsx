@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import {SingleProductInt} from "../../types/global_interfaces";
 import {SingleProduct} from "../SingleProduct/SingleProduct";
 import {Spinner} from "../../common/Spinner/Spinner";
@@ -13,6 +13,7 @@ interface Props {
 export const ProductsContainer = ({products}: Props) => {
 
     const [currentPage,setCurrentPage] = useState(1);
+    const isMounted = useRef(false);
 
     const productsPerPage = 8;
 
@@ -22,10 +23,13 @@ export const ProductsContainer = ({products}: Props) => {
     const currentProducts = products && products.slice(indexOfFirstProduct, indexOfLastProduct);
 
     useEffect(() => {
-        window.scrollTo({
-            top: document.body.scrollHeight,
-            behavior: "smooth"
-        });
+        if(isMounted.current === true) {
+            window.scrollTo({
+                top: document.body.scrollHeight,
+                behavior: "smooth"
+            });
+        }
+        isMounted.current = true;
     },[currentPage])
 
     return (

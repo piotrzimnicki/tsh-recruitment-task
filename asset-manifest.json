@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tsh-recruitment-task/static/css/main.6dd423c9.chunk.css",
+    "main.css": "/tsh-recruitment-task/static/css/main.5a25e0ca.chunk.css",
     "main.js": "/tsh-recruitment-task/static/js/main.ee78deac.chunk.js",
     "main.js.map": "/tsh-recruitment-task/static/js/main.ee78deac.chunk.js.map",
     "runtime-main.js": "/tsh-recruitment-task/static/js/runtime-main.07df109e.js",
@@ -8,7 +8,7 @@
     "static/js/2.eff3e09f.chunk.js": "/tsh-recruitment-task/static/js/2.eff3e09f.chunk.js",
     "static/js/2.eff3e09f.chunk.js.map": "/tsh-recruitment-task/static/js/2.eff3e09f.chunk.js.map",
     "index.html": "/tsh-recruitment-task/index.html",
-    "static/css/main.6dd423c9.chunk.css.map": "/tsh-recruitment-task/static/css/main.6dd423c9.chunk.css.map",
+    "static/css/main.5a25e0ca.chunk.css.map": "/tsh-recruitment-task/static/css/main.5a25e0ca.chunk.css.map",
     "static/js/2.eff3e09f.chunk.js.LICENSE.txt": "/tsh-recruitment-task/static/js/2.eff3e09f.chunk.js.LICENSE.txt",
     "static/media/App.css": "/tsh-recruitment-task/static/media/Nunito-VariableFont_wght.c0cfae63.ttf",
     "static/media/Header.css": "/tsh-recruitment-task/static/media/checked.708e1ba4.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.07df109e.js",
     "static/js/2.eff3e09f.chunk.js",
-    "static/css/main.6dd423c9.chunk.css",
+    "static/css/main.5a25e0ca.chunk.css",
     "static/js/main.ee78deac.chunk.js"
   ]
 }

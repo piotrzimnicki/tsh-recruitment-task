@@ -9,9 +9,16 @@
     background-color: transparent;
 }
 .products > .inner {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
     padding-top: 56px;
     padding-bottom: 40px;
+}
+
+@media(max-width: 1300px) {
+    .products > .inner {
+        justify-content: center;
+    }
 }

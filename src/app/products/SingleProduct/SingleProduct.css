@@ -2,7 +2,8 @@
     min-width: 210px;
     min-height: 400px;
     position: relative;
-    max-width: 500px;
+    max-width: 288px;
+    flex: 1 1 25%;
 }
 .products .inner .single-product.promo::before {
     content: 'Promo';
@@ -69,4 +70,11 @@
 }
 .products .inner .single-product .star-review span {
     margin-right: 10px;
+}
+
+@media(max-width: 650px){
+    .products .inner .single-product {
+        max-width: unset;
+        flex: 1 1;
+    }
 }

@@ -12,7 +12,16 @@ interface Props {
 }
 
 export const EndPagBtn = (props : Props) => {
-    const {currentPage,setCurrentPage,side, setSide, text, targetLinkNumber, urlWithFilters, setDataUrl} = props;
+    const {
+        currentPage,
+        setCurrentPage,
+        side,
+        setSide,
+        text,
+        targetLinkNumber,
+        urlWithFilters,
+        setDataUrl,
+    } = props;
     return (
         <span
             className={currentPage === targetLinkNumber ? "disabled" : ""}

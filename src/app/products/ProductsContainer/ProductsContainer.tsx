@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import {SingleProductInt} from "../../types/global_interfaces";
 import {SingleProduct} from "../SingleProduct/SingleProduct";
 import {Spinner} from "../../common/Spinner/Spinner";
@@ -20,6 +20,13 @@ export const ProductsContainer = ({products}: Props) => {
     const indexOfLastProduct = currentPage * productsPerPage;
     const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
     const currentProducts = products && products.slice(indexOfFirstProduct, indexOfLastProduct);
+
+    useEffect(() => {
+        window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: "smooth"
+        });
+    },[currentPage])
 
     return (
         <section className={`products fadeIn${products === null ? " no-background" : ""}`}>

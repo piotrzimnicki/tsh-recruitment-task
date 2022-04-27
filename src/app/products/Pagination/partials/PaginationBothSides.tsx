@@ -12,6 +12,7 @@ interface Props {
 
 export const PaginationBothSides = (props: Props) => {
     const {pagesNumber,pagesToShow,currentPage,setCurrentPage,side,setSide} = props;
+
     const arrayOfPages: number[] = [];
     for (let i = 1; i <= pagesNumber; i++) {
         arrayOfPages.push(i);
@@ -88,12 +89,11 @@ export const PaginationBothSides = (props: Props) => {
                         className={currentPage === el ? "current" : ""}
                         key={el}
                         onClick={() => {
-                            setCurrentPage(() => Number(el))
+                            setCurrentPage(() => Number(el));
                             setSide("left");
                         }}
                     >{el}
                     </span>
-
                 )}
             })}
             {generateBothSidesPagArr()[1].map(el => {
@@ -105,12 +105,11 @@ export const PaginationBothSides = (props: Props) => {
                             className={currentPage === el ? "current" : ""}
                             key={el}
                             onClick={() => {
-                                setCurrentPage(() => Number(el))
+                                setCurrentPage(() => Number(el));
                                 setSide("right");
                             }}
                         >{el}
                     </span>
-
                     )}
             })}
             <EndPagBtn
